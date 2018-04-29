@@ -1,0 +1,25 @@
+.About {
+  display: grid;
+  margin: 5% 0 5% 5%;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr 15fr;
+  grid-template-areas:
+    "header header"
+    ". main";
+}
+
+header {
+  grid-area: header;
+  font-size: 2em;
+}
+
+main {
+  grid-area: main;
+}
+
+
+@media screen and (min-width: 768px) {
+  .About {
+    grid-template-columns: 1fr 15fr;
+  }
+}

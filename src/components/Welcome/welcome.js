@@ -6,7 +6,7 @@ import alien from '../../images/alien_tmp.png'
 class Welcome extends Component {
   render() {
     return (
-      <div className="Welcome container">
+      <div className="Welcome">
         <span className="terminal" id="typed">
           <Typing
             strings={[
@@ -26,7 +26,7 @@ class Welcome extends Component {
         <img src={alien} alt="The beautiful author of this site, me!" id="alien-pic"/>
         <br/>
         <div id="welcome-intro-description">
-        I'm <b className="terminal">Daniel Ochoa</b>, a user-minded full-stack software engineer focused
+        I'm <b>Daniel Ochoa</b>, a user-minded full-stack software engineer focused
         on building products that have a positive impact on all of us.
         </div>
         <br/>

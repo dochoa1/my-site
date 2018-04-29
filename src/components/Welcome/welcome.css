@@ -1,7 +1,6 @@
 /* Html elements */
 b {
   font-weight: 900;
-  font-size: 1.5em;
   color: #ffffff;
 }
 
@@ -49,10 +48,7 @@ address {
 /* Classes */
 .Welcome {
   font-size: 1.5em;
-  margin: 10% 0 0 0;
-}
-
-.container {
+  margin-top: 10%;
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 2fr 3fr 3fr 1fr;
@@ -97,18 +93,15 @@ address {
   font-size: 1.3em;
 }
 
+/* Responsive design */
 @media screen and (min-width: 768px) {
-  .container {
+  .Welcome {
     grid-template-columns: 2.5fr 2fr;
     grid-template-rows: 2fr 4fr 1fr;
     grid-template-areas:
       "typing typing"
       "description image"
       "contact contact";
-  }
-  .Welcome {
-    font-size: 2.3em;
-    margin: 12% 0 0 2% ;
   }
   #welcome-intro-description {
     line-height: 1.8em;
