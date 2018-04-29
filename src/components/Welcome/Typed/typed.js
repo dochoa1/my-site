@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js'
-import '../component_styles/typed.css';
+import './typed.css';
 
 class Typing extends Component {
   componentDidMount() {
@@ -10,10 +10,11 @@ class Typing extends Component {
     // You can pass other options here, such as typing speed, back speed, etc.
     const options = {
     	strings: strings,
+      backDelay: 1000,
       typeSpeed: 30,
-      backSpeed: 30,
+      backSpeed: 25,
       loop: loop,
-      showCursor: showCursor
+      showCursor: showCursor,
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
