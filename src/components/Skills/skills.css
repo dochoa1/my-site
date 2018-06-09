@@ -1,0 +1,46 @@
+.Skills {
+  margin: 5% 0% 5% 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header languages frameworks libraries tools";
+}
+
+.section {
+  font-size: 2em;
+  grid-area: header;
+}
+
+.skills-heading > h3 {
+  line-height: 0px;
+}
+
+.skills-list > li {
+  font-size: 0.8em;
+}
+
+#skills-main {
+  margin-left: 3em;
+}
+
+#skills-languages {
+  grid-area: languages;
+}
+
+#skills-frameworks {
+  grid-area: frameworks;
+}
+
+#skills-libraries {
+  grid-area: libraries;
+}
+
+#skills-tools {
+  grid-area: tools;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}

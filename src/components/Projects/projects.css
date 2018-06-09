@@ -1,0 +1,41 @@
+.project {
+  margin-top: 5%;
+  margin-left: 3em;
+  display: grid;
+  grid-template-columns: 5fr 1fr 19fr; /* Try column gap instead of blank column*/
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "image . name"
+    "image . description"
+    "image . description"
+    "tech tech tech";
+}
+
+.project-name {
+  grid-area: name;
+  border: 1px solid brown;
+}
+
+.project-description {
+  grid-area: description;
+  border: 1px solid blue;
+}
+
+.project-tech {
+  grid-area: tech;
+  border: 1px solid green;
+}
+
+div.project > img  {
+  width: 100%;
+  border-radius: 15%;
+  grid-area: image;
+  border: 1px solid red;
+}
+
+.tech {
+  border: 1px solid #33FF00;
+  border-radius: 10%;
+  padding: 0.5em;
+  margin-right: 1em;
+}

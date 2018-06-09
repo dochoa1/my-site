@@ -48,8 +48,9 @@ address {
 /* Classes */
 .Welcome {
   font-size: 1.5em;
-  margin-top: 10%;
+  margin: 10% 0 5% 0;
   display: grid;
+  border: 1px solid red;
   grid-template-columns: auto;
   grid-template-rows: 2fr 3fr 3fr 1fr;
   grid-template-areas:

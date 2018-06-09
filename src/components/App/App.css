@@ -1,11 +1,12 @@
 body {
   background: #0f1217;
   font-family: 'Raleway', sans-serif;
-  color: #e0dddd;
+  /* color: #e0dddd; */
+  color: rgb(200, 200, 200);
 }
 
 .terminal {
-  color: #33FF00;
+  color: #33FF00;  /* Make this color into a global variable */
   font-family: 'VT323', monospace;
 }
 

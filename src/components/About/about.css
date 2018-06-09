@@ -1,6 +1,6 @@
 .About {
   display: grid;
-  margin: 5% 0 5% 5%;
+  margin: 5% 0 5% 0%;
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 15fr;
   grid-template-areas:
@@ -20,6 +20,7 @@ main {
 
 @media screen and (min-width: 768px) {
   .About {
-    grid-template-columns: 1fr 15fr;
+    grid-template-columns: 1fr 16fr;
+    grid-template-rows: 1fr 9fr;
   }
 }

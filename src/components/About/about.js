@@ -8,8 +8,8 @@ class About extends Component {
         <header className="terminal">About me</header>
         <main>
           <p>
-          I'm a senior at <b>Macalester College</b> in St.Paul, MN expecting to graduate with
-          a Computer Science and Applied Mathematics dual degree in May 2018. I have had the opportunity
+          I recently graduated from <b>Macalester College</b> in St.Paul, MN with
+          a Computer Science and Applied Mathematics dual degree. I have had the opportunity
           to conduct research at the <b>University of Miami</b> and intern as a software developer at
           <b> Infinite Campus</b> in Blaine, MN. After graduating I will be an engineering resident at <b>Google</b>.
           </p>
