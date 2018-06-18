@@ -5,8 +5,8 @@ import './skills.css';
 class Skills extends Component {
   render() {
     return (
-      <div className="Skills">
-        <span className="section terminal">Skills</span>
+      <div className="section Skills">
+        <header className="terminal">Skills</header>
           <div id="skills-languages" className="skills-heading">
             <h3><b>Languages</b></h3>
             <ul className="skills-list">

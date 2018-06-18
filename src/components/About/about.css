@@ -4,8 +4,7 @@
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 15fr;
   grid-template-areas:
-    "header header"
-    ". main";
+    "header main";
 }
 
 header {
@@ -17,10 +16,13 @@ main {
   grid-area: main;
 }
 
+p:first-child {
+  margin-top: 0.5em; /* To match up with header */
+}
 
 @media screen and (min-width: 768px) {
   .About {
-    grid-template-columns: 1fr 16fr;
-    grid-template-rows: 1fr 9fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
   }
 }
