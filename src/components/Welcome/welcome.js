@@ -31,7 +31,8 @@ class Welcome extends Component {
         </div>
         <br/>
         <address id="contact-me">
-          Hit me up<span className="terminal" id="contact-arrow"> ---> </span><a href="mailto:dochoa@macalester.edu">dochoa@macalester.edu</a>
+          Hit me up<span className="terminal" id="contact-arrow"> ---> </span>
+          <a id="email" href="mailto:dochoa@macalester.edu">dochoa@macalester.edu</a>
         </address>
       </div>
     );

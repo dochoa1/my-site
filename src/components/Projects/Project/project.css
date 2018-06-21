@@ -1,6 +1,5 @@
 .project {
   margin-top: 5%;
-  margin-left: 3em;
   display: grid;
   grid-template-columns: 5fr 19fr;
   grid-template-rows: auto;

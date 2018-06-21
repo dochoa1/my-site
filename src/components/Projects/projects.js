@@ -3,7 +3,9 @@ import './projects.css';
 import Project from './Project/project'
 import ceres from '../../images/ceresIcon.png';
 import alien from '../../images/alien_tmp.png'
-import projectDescriptions from './projectDescriptions.json';
+import resumeImage from '../../images/resume_image.png'
+import projectDescriptions from './Resources/projectDescriptions.json';
+import resume from './Resources/resume.pdf'
 
 class Projects extends Component {
   render() {
@@ -14,9 +16,12 @@ class Projects extends Component {
           <Project className="project" name="Expedition Ceres" image={ceres} description={projectDescriptions["Ceres"]} tech={['Swift 3', 'SpriteKit']}/>
           <br/>
           <br/>
-          <br/>
-          <br/>
           <Project name="This Website!" image={alien} description={projectDescriptions["Website"]} tech={['HTML5', 'CSS3', 'JavaScript', 'React']}/>
+          <br/>
+          <br/>
+          <p>I got you interested? Check out my resume!
+            <a href={resume}><img src={resumeImage} alt="A document icon" id='resumeImage'></img></a>
+          </p>
         </div>
       </div>
     );

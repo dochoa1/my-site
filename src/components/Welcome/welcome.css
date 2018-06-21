@@ -4,29 +4,29 @@ b {
   color: #ffffff;
 }
 
-a {
+#email {
   display: inline-block;
   line-height: 1.1em;  /* So that the animated underline is close to the text */
 }
 
-  a:link {
+  #email:link {
     text-decoration: none;
     color: inherit;
   }
 
-  a:visited {
+  #email:visited {
       text-decoration: none;
   }
 
-  a:hover {
+  #email:hover {
       text-decoration: none;
   }
 
-  a:active {
+  #email:active {
       text-decoration: none;
   }
 
-  a::after {
+  #email::after {
       content: '';
       display: block;
       width: 0;
@@ -35,7 +35,7 @@ a {
       transition: width .3s;
   }
 
-    a:hover::after {
+    #email:hover::after {
         width: 100%;
         transition: width .3s;
     }
