@@ -40,6 +40,11 @@ div.project > img  {
   border: 1px solid yellow;
 }
 
+div.projects-text > h2 > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .tech {
   border: 1px solid #33FF00;
   border-radius: 10%;

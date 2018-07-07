@@ -1,0 +1,25 @@
+.job {
+  margin-top: 0.5em; /* To match up with header */
+  margin-bottom: 1.5em;
+}
+
+.institution {
+  float: left;
+}
+
+.position {
+  grid-area: position;
+  font-size: 80%;
+}
+
+.timeline {
+  float: right;
+  font-family: 'Abel', sans-serif;
+  color: rgb(150, 150, 150);
+  font-size: 70%;
+}
+
+.job > span > b > a {
+  text-decoration: none;
+  color: inherit;
+}

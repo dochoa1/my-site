@@ -1,6 +1,6 @@
 .About {
-  display: grid;
   margin: 5% 0 5% 0%;
+  display: grid;
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 15fr;
   grid-template-areas:
@@ -12,7 +12,7 @@ header {
   font-size: 2em;
 }
 
-main {
+.About > main {
   grid-area: main;
 }
 

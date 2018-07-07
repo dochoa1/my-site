@@ -1,4 +1,4 @@
-.Skills {
+.skills {
   margin: 5% 0% 5% 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -21,7 +21,7 @@ header {
 }
 
 .skills-list > li {
-  font-size: 0.8em;
+  font-size: 80%;
 }
 
 #skills-languages {
