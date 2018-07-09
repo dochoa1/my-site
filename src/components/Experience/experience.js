@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Job from './Job/job';
 import './experience.css';
-import resumeImage from '../../images/resume_image.png'
 import resume from './resume.pdf'
 
 class Experience extends Component {
@@ -17,7 +16,7 @@ class Experience extends Component {
           <Job institution="University of Miami" link="https://welcome.miami.edu/" position="Computer Science Research Assistant" timeline="June - Aug 2016"/>
           <h4>
             <b>Check out my resume!</b>
-            <a href={resume} target="_blank"><img src={resumeImage} alt="A document icon" id='resumeImage'></img></a>
+            <a href={resume} target="_blank"><i class="far fa-file-alt terminal" id="resumeImage"></i></a>
           </h4>
         </main>
       </div>

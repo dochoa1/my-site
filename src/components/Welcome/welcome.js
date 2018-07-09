@@ -23,17 +23,12 @@ class Welcome extends Component {
         />
         </span>
         <br/>
-        <img src={alien} alt="The beautiful author of this site, me!" id="alien-pic"/>
+        <img src={alien} alt="My website's mascot" id="alien-pic"/>
         <br/>
         <div id="welcome-intro-description">
         I'm <b>Daniel Ochoa</b>, a user-minded full-stack software engineer focused
         on building products that have a positive impact on all of us.
         </div>
-        <br/>
-        <address id="contact-me">
-          Hit me up<span className="terminal" id="contact-arrow"> ---> </span>
-          <a id="email" href="mailto:dochoa@macalester.edu">dochoa@macalester.edu</a>
-        </address>
       </div>
     );
   }

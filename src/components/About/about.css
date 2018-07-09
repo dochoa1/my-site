@@ -1,5 +1,5 @@
 .About {
-  margin: 5% 0 5% 0%;
+  margin: 10% 0% 5% 0;
   display: grid;
   grid-template-columns: 1fr 6fr;
   grid-template-rows: 1fr 15fr;

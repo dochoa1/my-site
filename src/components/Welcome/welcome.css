@@ -4,46 +4,6 @@ b {
   color: #ffffff;
 }
 
-#email {
-  display: inline-block;
-  line-height: 1.1em;  /* So that the animated underline is close to the text */
-}
-
-  #email:link {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  #email:visited {
-      text-decoration: none;
-  }
-
-  #email:hover {
-      text-decoration: none;
-  }
-
-  #email:active {
-      text-decoration: none;
-  }
-
-  #email::after {
-      content: '';
-      display: block;
-      width: 0;
-      height: 0.08em;
-      background: #33FF00;
-      transition: width .3s;
-  }
-
-    #email:hover::after {
-        width: 100%;
-        transition: width .3s;
-    }
-
-address {
-  font-style: normal;
-}
-
 
 /* Classes */
 .Welcome {
@@ -52,12 +12,11 @@ address {
   display: grid;
   border: 1px solid red;
   grid-template-columns: auto;
-  grid-template-rows: 2fr 3fr 3fr 1fr;
+  grid-template-rows: 2fr 3fr 3fr;
   grid-template-areas:
     "typing"
     "image"
-    "description"
-    "contact";
+    "description";
 }
 
 
@@ -83,32 +42,16 @@ address {
   grid-area: image;
 }
 
-#contact-me {
-  font-size: 0.65em;
-  margin-top: 2em;
-  text-align: center;
-  grid-area: contact;
-}
-
-#contact-arrow {
-  font-size: 1.3em;
-}
-
 /* Responsive design */
 @media screen and (min-width: 768px) {
   .Welcome {
     grid-template-columns: 2.5fr 2fr;
-    grid-template-rows: 2fr 4fr 1fr;
+    grid-template-rows: 2fr 4fr;
     grid-template-areas:
       "typing typing"
-      "description image"
-      "contact contact";
+      "description image";
   }
   #welcome-intro-description {
     line-height: 1.8em;
-  }
-  #contact-me {
-    text-align: left;
-    align-self: start;
   }
 }
