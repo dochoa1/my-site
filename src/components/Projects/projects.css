@@ -1,5 +1,4 @@
 .Projects {
-  margin: 10% 0% 5% 0;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: auto;
@@ -19,5 +18,5 @@ header {
 }
 
 .projects-main:not(:last-child) {
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }

@@ -10,9 +10,12 @@ body {
 }
 
 .App {
-  padding: 0% 5% 0% 5%;
+  margin: 0% 7% 0% 7%;
 }
 
+main > * {
+  margin-top: 7em;
+}
 
 /* Responsive design */
 @media screen and (min-width: 768px) {

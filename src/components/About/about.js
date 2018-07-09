@@ -6,7 +6,7 @@ class About extends Component {
     return (
       <div className="About">
         <header className="terminal">About me</header>
-        <main>
+        <div>
             <p>
             I recently graduated from <b>Macalester College</b> in St.Paul, MN with
             a Computer Science and Applied Mathematics dual degree. I have had the opportunity
@@ -25,7 +25,7 @@ class About extends Component {
             <b>When I'm not building the products of the future</b> I like to spend my time writing, reading,
             running, playing ultimate frisbee, and spending too much time watching youtube videos ¯\_(ツ)_/¯.
             </p>
-        </main>
+        </div>
       </div>
     );
   }

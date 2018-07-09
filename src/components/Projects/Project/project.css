@@ -4,7 +4,7 @@
   grid-template-columns: 5fr 19fr;
   grid-template-rows: auto;
   grid-column-gap: 1em;
-  grid-row-gap: 0.3em;
+  grid-row-gap: 0.8em;
   grid-template-areas:
     "image name"
     "image description"
@@ -15,29 +15,29 @@
 .project-name {
   grid-area: name;
   margin-top: 0;
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
 }
 
 .project-description {
   grid-area: description;
   margin-bottom: 0;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .project-tech {
   grid-area: tech;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .projects-text {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 div.project > img  {
   width: 100%;
   border-radius: 15%;
   grid-area: image;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 div.projects-text > h2 > a {
@@ -46,7 +46,7 @@ div.projects-text > h2 > a {
 }
 
 .tech {
-  border: 1px solid #33FF00;
+  border: 2px solid #33FF00;
   border-radius: 10%;
   padding: 0.5em;
   margin-right: 1em;
