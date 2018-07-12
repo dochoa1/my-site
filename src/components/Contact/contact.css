@@ -3,7 +3,7 @@
 }
 
 .Contact > header {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .font-awesome {
@@ -16,10 +16,12 @@
 }
 
 .Contact > img {
-  width: 10%;
+  width: 20%;
 }
-.Contact > img:hover {
-  cursor: pointer;
+
+#accounts > a > i {
+  width: 5%;
+  font-size: 1.3em;
 }
 
 .Contact > p {
@@ -30,4 +32,19 @@
 
 .Contact > * {
   margin-bottom: 0.7em;
+}
+
+
+@media screen and (min-width: 768px) {
+  .Contact > header {
+    font-size: 3em;
+  }
+
+  .Contact > img {
+    width: 10%;
+  }
+
+  #accounts > a > i {
+    font-size: 2em;
+  }
 }

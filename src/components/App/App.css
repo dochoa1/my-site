@@ -4,6 +4,11 @@ body {
   color: #C8C8C8;
 }
 
+header {
+  font-size: 2em;
+  grid-area: header;
+}
+
 .terminal {
   color: #33FF00;  /* Make this color into a global variable */
   font-family: 'VT323', monospace;

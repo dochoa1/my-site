@@ -2,11 +2,21 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: auto;
-  grid-template-areas: "header main";
+  grid-row-gap: 1em;
+  grid-template-areas:
+    "header ."
+    "main main";
 }
 
 .experience > div {
   grid-area: main;
+}
+
+@media screen and (min-width: 768px) {
+  .experience {
+    grid-row-gap: 0;
+    grid-template-areas: "header main";
+  }
 }
 
 #resumeImage {

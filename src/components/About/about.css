@@ -1,14 +1,11 @@
 .About {
   display: grid;
-  grid-template-columns: 1fr 6fr;
-  grid-template-rows: 1fr 15fr;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: auto;
+  grid-row-gap: 1em;
   grid-template-areas:
-    "header main";
-}
-
-header {
-  grid-area: header;
-  font-size: 2em;
+    "header ."
+    "main main";
 }
 
 .About > div {
@@ -16,12 +13,19 @@ header {
 }
 
 p:first-child {
-  margin-top: 0.5em; /* To match up with header */
+  margin-top: 0;
 }
+
 
 @media screen and (min-width: 768px) {
   .About {
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: auto;
+    grid-row-gap: 0;
+    grid-template-areas:
+      "header main";
+  }
+
+  p:first-child {
+    margin-top: 0.5em; /* To match up with header */
   }
 }

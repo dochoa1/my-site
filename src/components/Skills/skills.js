@@ -6,7 +6,7 @@ class Skills extends Component {
     return (
       <div className="section skills">
         <header className="terminal">Skills</header>
-
+        
         <div id="skills-languages" className="skills-heading">
           <h3><b>Languages</b></h3>
           <ul className="skills-list">
