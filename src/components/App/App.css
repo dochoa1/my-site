@@ -2,6 +2,7 @@ body {
   background: #0f1217;
   font-family: 'Raleway', sans-serif;
   color: #C8C8C8;
+  font-size: 1em;
 }
 
 header {
@@ -23,7 +24,7 @@ main > * {
 }
 
 /* Responsive design */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   body {
     font-size: 1.5em;
     margin-top: 12%;

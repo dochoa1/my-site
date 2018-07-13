@@ -9,10 +9,10 @@ class Project extends Component {
       <div className="projects-main">
         <div className="project">
           <img src={this.props.image} alt="Expedition Ceres iOS app"></img>
-          <div className="projects-text">
-            <h2 className="terminal project-name"> <a href={this.props.link} target={this.props.target || "_self"}>{this.props.name}</a> </h2>
-            <p className="project-description"> {this.props.description} </p>
+          <div id="project-name-container">
+            <h2 className="terminal project-name"> <a href={this.props.link} target={this.props.target || "_self"}>{this.props.name}</a></h2>
           </div>
+          <p className="project-description"> {this.props.description} </p>
           <span className="project-tech">
             {technologies}
           </span>
