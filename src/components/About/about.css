@@ -16,7 +16,7 @@ p:first-child {
   margin-top: 0;
 }
 
-
+/* Responsive design */
 @media screen and (min-width: 992px) {
   .About {
     grid-template-columns: 1fr 4fr;

@@ -11,7 +11,7 @@ b {
   margin: 10% 0 5% 0;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 2fr 3fr 3fr;
+  grid-template-rows: 1fr 2fr 1fr;
   grid-template-areas:
     "typing"
     "image"
@@ -23,22 +23,25 @@ b {
 #welcome-intro-description {
   padding: 0.2em 0em 0em 0em;
   grid-area: description;
+  border: 1px solid green;
 }
 
 #typed {
   grid-area: typing;
   font-size: 1.5em;
-  word-break: break-word;
+  overflow-wrap: break-word;
   overflow: hidden;
+  border: 1px solid red;
 }
 
 #alien-pic {
-  max-width: 50%;
+  max-width: 30%;
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   grid-area: image;
+  border: 1px solid blue;
 }
 
 /* Responsive design */
@@ -50,6 +53,11 @@ b {
       "typing typing"
       "description image";
   }
+
+  #alien-pic {
+    max-width: 50%;
+  }
+
   #welcome-intro-description {
     line-height: 1.8em;
   }

@@ -57,7 +57,7 @@ div.project > img  {
   font-size: 75%;
 }
 
-
+/* Responsive design */
 @media screen and (min-width: 992px) {
   .project {
     grid-template-rows: 1fr 3fr 1fr;

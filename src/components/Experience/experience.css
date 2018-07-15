@@ -12,6 +12,7 @@
   grid-area: main;
 }
 
+/* Responsive design */
 @media screen and (min-width: 992px) {
   .experience {
     grid-row-gap: 0;
