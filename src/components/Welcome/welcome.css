@@ -11,7 +11,7 @@ b {
   margin: 10% 0 5% 0;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 2fr;
   grid-template-areas:
     "typing"
     "image"
@@ -23,7 +23,6 @@ b {
 #welcome-intro-description {
   padding: 0.2em 0em 0em 0em;
   grid-area: description;
-  border: 1px solid green;
 }
 
 #typed {
@@ -31,7 +30,6 @@ b {
   font-size: 1.5em;
   overflow-wrap: break-word;
   overflow: hidden;
-  border: 1px solid red;
 }
 
 #alien-pic {
@@ -40,11 +38,33 @@ b {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
   grid-area: image;
-  border: 1px solid blue;
 }
 
 /* Responsive design */
+@media screen and (min-width: 368px) {  /* Don't know why problems started at this breakpoint. Welcome too tall. */
+  .Welcome {
+    grid-template-rows: 1fr 1fr 1.5fr;
+  }
+
+  #alien-pic {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 436px) {  /* Don't know why problems started at this breakpoint. Welcome too tall. */
+  .Welcome {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 612px) {  /* Don't know why problems started at this breakpoint. Welcome too tall. */
+  .Welcome {
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .Welcome {
     grid-template-columns: 2.5fr 2fr;
