@@ -10,6 +10,11 @@ header {
   grid-area: header;
 }
 
+b {
+  font-weight: 900;
+  color: #ffffff;
+}
+
 .terminal {
   color: #33FF00;  /* Make this color into a global variable */
   font-family: 'VT323', monospace;

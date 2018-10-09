@@ -16,7 +16,7 @@ class Experience extends Component {
           <Job institution="University of Miami" link="https://welcome.miami.edu/" position="Computer Science Research Assistant" timeline="June - Aug 2016"/>
           <h4>
             <b>Check out my resume!</b>
-            <a href={resume} target="_blank"><i class="far fa-file-alt terminal" id="resumeImage"></i></a>
+            <a href={resume} target="_blank"><i className="far fa-file-alt terminal" id="resumeImage"></i></a>
           </h4>
         </div>
       </div>

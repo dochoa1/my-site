@@ -14,7 +14,7 @@ class Projects extends Component {
         <div className="projects-main">
           <Project name="Expedition Ceres" link="https://itunes.apple.com/us/app/expedition-ceres/id1226868158?mt=8" target="_blank" image={ceres} description={projectDescriptions["Ceres"]} tech={['Swift', 'SpriteKit']}/>
           <Project name="This Website!" link="" image={alien} description={projectDescriptions["Website"]} tech={['HTML', 'CSS', 'JavaScript', 'React']}/>
-          <Project name="Run Color Run" image={runColorRun} description={projectDescriptions["RunColorRun"]} tech={['Ionic', 'Angular', 'JavaScript', 'Gulp', 'CSS']}/>
+          <Project name="Run Color Run" image={runColorRun} description={projectDescriptions["RunColorRun"]} tech={['Ionic', 'Angular', 'JavaScript', 'CSS']}/>
         </div>
       </div>
     );

@@ -55,6 +55,8 @@ div.project > img  {
   padding: 0.5em;
   margin-right: 1em;
   font-size: 75%;
+  font-weight: 900;
+  color: #dddddd;
 }
 
 /* Responsive design */

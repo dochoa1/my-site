@@ -33,12 +33,12 @@ class Contact extends Component {
       <div className="Contact">
         <header className="terminal"> {this.state.hyphens + '> Get In Touch! <' + this.state.hyphens}</header>
         <div id="accounts">
-          <a href="mailto:dochoa@macalester.edu" id="mail"><i class="far fa-envelope fa-2x font-awesome"></i></a>
-          <a href="https://github.com/dochoa1" id="github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-2x font-awesome"></i></a>
-          <a href="https://www.linkedin.com/in/daniel-ochoa-8b2416a9/" id="linkedin" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x font-awesome"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100012335137244" id="facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square fa-2x font-awesome"></i></a>
-          <a href="https://open.spotify.com/user/danny_dork" id="spotify" target="_blank" rel="noopener noreferrer"><i class="fab fa-spotify fa-2x font-awesome"></i></a>
-          <a href="https://twitter.com/danny_dork" id="twitter" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-2x font-awesome"></i></a>
+          <a href="mailto:dochoa@macalester.edu" id="mail"><i className="far fa-envelope fa-2x font-awesome"></i></a>
+          <a href="https://github.com/dochoa1" id="github" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-2x font-awesome"></i></a>
+          <a href="https://www.linkedin.com/in/daniel-ochoa-8b2416a9/" id="linkedin" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x font-awesome"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100012335137244" id="facebook" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-2x font-awesome"></i></a>
+          <a href="https://open.spotify.com/user/danny_dork" id="spotify" target="_blank" rel="noopener noreferrer"><i className="fab fa-spotify fa-2x font-awesome"></i></a>
+          <a href="https://twitter.com/danny_dork" id="twitter" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter fa-2x font-awesome"></i></a>
         </div>
         <img onClick={this.scrollToTop} src={alien} alt="My website's mascot" id="alien-pic"/>
         <p>© Daniel Ochoa 2018</p>
